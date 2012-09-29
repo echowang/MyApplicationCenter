@@ -1,0 +1,23 @@
+<center>
+<table border="1" width="50%" padding>
+	<tr>
+		<td>name</td>
+		<td>description</td>
+		<td>capacity</td>
+		<td colspan="3" align="center">operation</td>
+	</tr>
+	<% @iosapps.each do |app| %>
+	<tr>
+		<td><%= app.name %></td>
+		<td><%= app.description %></td>
+		<td><%= AppCapacity.find(app.capacity).name %></td>
+		<td align="center"><%= link_to 'Show', :controller => 'ios_app', :action => 'show', :id => app %></td>
+  		<td align="center"><%= link_to 'Edit', :controller => 'ios_app', :action => 'edit', :id => app %></td>
+  		<td align="center"><%= link_to 'Delete', :controller => 'ios_app', :action => 'destroy', :id => app %></td>
+	</tr>
+	<% end %>
+	<tr>
+		<td colspan="6" align="center"><%= link_to 'New IOS Application ', :controller => 'ios_app', :action => 'new' %></td>
+	</tr>
+</table>
+</center>

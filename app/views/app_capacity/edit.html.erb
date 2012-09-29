@@ -1,0 +1,17 @@
+<center>
+<%= form_for @capacity, :url => { :controller => 'app_capacity', :action => 'update', :id => @capacity } do |f| %>
+	<table border="1" width="50%" padding>
+		<tr>
+			<td><%= f.label :name, "Name" %></td>
+			<td><%= f.text_field :name %></td>
+		</tr>	
+    	<tr>
+			<td> <%= f.label :description, "Description" %> </td>
+			<td> <%= f.text_field :description %> </td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><%= f.submit "Update" %></td>
+		</tr>
+	</table>   
+<% end %>
+</center>

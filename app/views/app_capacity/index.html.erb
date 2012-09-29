@@ -1,0 +1,22 @@
+<center>
+<table border="1" width="50%" padding>
+	<tr>
+		<td>name</td>
+		<td>description</td>
+		<td colspan="3" align="center">operation</td>
+	</tr>
+	<% @capacities.each do |capacity| %>
+	<tr>
+		<td><%= capacity.name %></td>
+		<td><%= capacity.description %></td>
+		<td align="center"><%= link_to 'Show', :controller => 'app_capacity', :action => 'show', :id => capacity %></td>
+  		<td align="center"><%= link_to 'Edit', :controller => 'app_capacity', :action => 'edit', :id => capacity %></td>
+  		<td align="center"><%= link_to 'Delete', :controller => 'app_capacity', :action => 'destroy', :id => capacity %></td>
+	</tr>
+	<% end %>
+	<tr>
+		<td colspan="5" align="center"><%= link_to 'New App Capacity ', :controller => 'app_capacity', :action => 'new' %></td>
+	</tr>
+</table>
+
+</center>

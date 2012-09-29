@@ -1,0 +1,6 @@
+<%= form_tag({:action =>'save', :controller => "home"}, :multipart => true)%>
+
+    <p><label for="upload_file">选择上传文件</label>
+    <%= file_field("file", "file")%>
+    <%= submit_tag '提交' %></p>
+</form> 

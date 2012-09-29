@@ -1,0 +1,2 @@
+module AppCapacityHelper
+end

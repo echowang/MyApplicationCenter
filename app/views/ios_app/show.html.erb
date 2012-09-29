@@ -1,0 +1,19 @@
+<center>
+	<table border="1" width="50%" padding>
+		<tr>
+			<td>name</td>
+			<td><%= @iosapp.name %></td>
+		</tr>	
+    	<tr>
+			<td>description</td>
+			<td><%= simple_format(@iosapp.description) %></td>
+		</tr>
+		<tr>
+			<td>capacity</td>
+			<td><%= @capacity.name %></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><%= link_to 'Back to index', :controller => 'ios_app', :action => 'index' %></td>
+		</tr>
+	</table>
+</center>
