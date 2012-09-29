@@ -19311,3 +19311,2536 @@ ActionView::Template::Error (undefined method `merge' for "file":String):
   Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
   Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
   Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/ios_app" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Processing by IosAppController#index as HTML
+  [1m[36mIosApp Load (0.1ms)[0m  [1mSELECT `ios_apps`.* FROM `ios_apps` [0m
+  [1m[35mAppCapacity Load (0.2ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1[0m
+  Rendered ios_app/index.html.erb within layouts/application (59.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 398ms (Views: 245.3ms | ActiveRecord: 45.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /app_capacity.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /android_app.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /ios_app.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /android_app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /app_capacity.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /ios_app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 16:16:59 +0800
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/ios_app/new" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Processing by IosAppController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` 
+  Rendered ios_app/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 71ms (Views: 18.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /ios_app.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 16:17:03 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/ios_app/create" for 127.0.0.1 at 2012-09-29 16:17:20 +0800
+Processing by IosAppController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"", "description"=>"", "capacity"=>"4"}, "file"=>{"file"=>"221.png"}, "commit"=>"Create"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `original_filename' for "221.png":String):
+  app/controllers/application_controller.rb:9:in `upload_file'
+  app/controllers/ios_app_controller.rb:14:in `create'
+
+
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.8ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 22ms (Views: 21.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /ios_app.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /android_app.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 16:19:00 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/home/save" for 127.0.0.1 at 2012-09-29 16:19:05 +0800
+Processing by HomeController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "file"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fde44a34c90 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file[file]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-2843-17ok6ij>>}, "commit"=>"提交"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 17:17:02 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (36.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 402ms (Views: 317.2ms | ActiveRecord: 84.7ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /android_app.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /app_capacity.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /ios_app.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /android_app.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /app_capacity.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /ios_app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:03 +0800
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/ios_app/" for 127.0.0.1 at 2012-09-29 17:17:13 +0800
+Processing by IosAppController#index as HTML
+  [1m[35mIosApp Load (0.1ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` 
+  [1m[36mAppCapacity Load (0.2ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.2ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1
+  Rendered ios_app/index.html.erb within layouts/application (60.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 119ms (Views: 101.1ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:13 +0800
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:14 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:14 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:14 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:14 +0800
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:14 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:14 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:14 +0800
+Served asset /android_app.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:14 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:14 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:14 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:14 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ios_app/new" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Processing by IosAppController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` [0m
+  Rendered ios_app/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 47ms (Views: 26.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /ios_app.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:17:15 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/ios_app/create" for 127.0.0.1 at 2012-09-29 17:17:27 +0800
+Processing by IosAppController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"", "description"=>"", "capacity"=>"4"}, "file"=>{"file"=>"221.png"}, "commit"=>"Create"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `original_filename' for "221.png":String):
+  app/controllers/application_controller.rb:9:in `upload_file'
+  app/controllers/ios_app_controller.rb:14:in `create'
+
+
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.3ms)
+
+
+Started GET "/ios_app" for 127.0.0.1 at 2012-09-29 17:20:19 +0800
+Processing by IosAppController#index as HTML
+  [1m[36mIosApp Load (0.2ms)[0m  [1mSELECT `ios_apps`.* FROM `ios_apps` [0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1[0m
+  Rendered ios_app/index.html.erb within layouts/application (4.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /android_app.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /ios_app.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /android_app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:20:20 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/ios_app/new" for 127.0.0.1 at 2012-09-29 17:20:21 +0800
+Processing by IosAppController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` 
+  Rendered ios_app/new.html.erb within layouts/application (39.7ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (undefined method `merge' for "file":String):
+    15: 		</tr>
+    16: 		<tr>
+    17: 			<td><%= f.label :file, "选择ipa文件" %></td>
+    18: 			<td><%= f.file_field("file", "file") %></td>
+    19: 		</tr>
+    20: 		<tr>
+    21: 			<td colspan="2" align="center"><%= f.submit "Create" %></td>
+  app/views/ios_app/new.html.erb:18:in `block in _app_views_ios_app_new_html_erb___899758749258365713_70239544845500'
+  app/views/ios_app/new.html.erb:2:in `_app_views_ios_app_new_html_erb___899758749258365713_70239544845500'
+
+
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/ios_app/new" for 127.0.0.1 at 2012-09-29 17:27:16 +0800
+Processing by IosAppController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.2ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` 
+  Rendered ios_app/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 25ms (Views: 21.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:27:16 +0800
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:27:16 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:27:16 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:27:16 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:27:16 +0800
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:27:16 +0800
+Served asset /ios_app.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:27:16 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:27:16 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:27:17 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:27:17 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:27:17 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:27:17 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/ios_app/create" for 127.0.0.1 at 2012-09-29 17:27:22 +0800
+Processing by IosAppController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"", "description"=>"", "capacity"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fc3d3d17ec0 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"ios_app[file]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3032-67n403>>}, "commit"=>"Create"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/ios_app_controller.rb:14:in `create'
+
+
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /android_app.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:28:51 +0800
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started POST "/home/save" for 127.0.0.1 at 2012-09-29 17:29:00 +0800
+Processing by HomeController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "file"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fc3d6429b58 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file[file]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3032-otfdcg>>}, "commit"=>"提交"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 171ms (Views: 73.7ms | ActiveRecord: 96.3ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /app_capacity.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:19 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/ios_app/" for 127.0.0.1 at 2012-09-29 17:30:24 +0800
+Processing by IosAppController#index as HTML
+  [1m[35mIosApp Load (0.1ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` 
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1
+  Rendered ios_app/index.html.erb within layouts/application (20.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 48ms (Views: 32.3ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:24 +0800
+Served asset /android_app.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:24 +0800
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:24 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:24 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:24 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:25 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:25 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:25 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:25 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:25 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:25 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:25 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ios_app/new" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Processing by IosAppController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` [0m
+  Rendered ios_app/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 28ms (Views: 16.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:30:26 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/ios_app/create" for 127.0.0.1 at 2012-09-29 17:30:31 +0800
+Processing by IosAppController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"", "description"=>"", "capacity"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fc3d6356050 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"ios_app[file]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3032-uwmfjs>>}, "commit"=>"Create"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  app/controllers/application_controller.rb:9:in `upload_file'
+  app/controllers/ios_app_controller.rb:14:in `create'
+
+
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started POST "/ios_app/create" for 127.0.0.1 at 2012-09-29 17:32:18 +0800
+Processing by IosAppController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"", "description"=>"", "capacity"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fc3d60e01e0 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"ios_app[file]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3032-1nv77mq>>}, "commit"=>"Create"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Redirected to http://localhost:3000/ios_app
+Completed 302 Found in 84ms (ActiveRecord: 43.8ms)
+
+
+Started GET "/ios_app" for 127.0.0.1 at 2012-09-29 17:32:18 +0800
+Processing by IosAppController#index as HTML
+  [1m[35mIosApp Load (0.1ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` 
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1
+  Rendered ios_app/index.html.erb within layouts/application (27.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 80ms (Views: 63.7ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /ios_app.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /home.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /android_app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:19 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ios_app/new" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Processing by IosAppController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` [0m
+  Rendered ios_app/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 28ms (Views: 24.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /android_app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:46 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/ios_app/create" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Processing by IosAppController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"", "description"=>"", "capacity"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fc3d6403d68 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"ios_app[file]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3032-1v0alo6>>}, "commit"=>"Create"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Redirected to http://localhost:3000/ios_app
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/ios_app" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Processing by IosAppController#index as HTML
+  [1m[36mIosApp Load (0.2ms)[0m  [1mSELECT `ios_apps`.* FROM `ios_apps` [0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1[0m
+  Rendered ios_app/index.html.erb within layouts/application (6.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /android_app.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:32:51 +0800
+Served asset /application.js - 304 Not Modified (39ms)
+
+
+Started GET "/ios_app/new" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Processing by IosAppController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` 
+  Rendered ios_app/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 149ms (Views: 41.2ms | ActiveRecord: 45.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /android_app.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /ios_app.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /android_app.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:37 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/ios_app/create" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Processing by IosAppController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"", "description"=>"", "capacity"=>"4", "filename"=>#<ActionDispatch::Http::UploadedFile:0x007fc3d3c4d1c0 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"ios_app[filename]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3032-jla4c9>>}, "commit"=>"Create"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Redirected to http://localhost:3000/ios_app
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/ios_app" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Processing by IosAppController#index as HTML
+  [1m[35mIosApp Load (0.1ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` 
+  [1m[36mAppCapacity Load (0.2ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.2ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1
+  Rendered ios_app/index.html.erb within layouts/application (7.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /android_app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:37:42 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (36.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateIosApps (20120928031326)
+Migrating to CreateAndroidApps (20120928031411)
+Migrating to CreateAppCapacities (20120928031446)
+Migrating to DeviseCreateUsers (20120928090825)
+Migrating to AddUsernameToUsers (20120929023203)
+Migrating to AddFilenameToIosapps (20120929093946)
+  [1m[35m (0.4ms)[0m  ALTER TABLE `iosapps` ADD `filename` varchar(255)
+Mysql2::Error: Table 'myapplicationcenter_development.iosapps' doesn't exist: ALTER TABLE `iosapps` ADD `filename` varchar(255)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.7ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateIosApps (20120928031326)
+Migrating to CreateAndroidApps (20120928031411)
+Migrating to CreateAppCapacities (20120928031446)
+Migrating to DeviseCreateUsers (20120928090825)
+Migrating to AddUsernameToUsers (20120929023203)
+Migrating to AddFilenameToIosapps (20120929093946)
+  [1m[35m (0.4ms)[0m  ALTER TABLE `iosapps` ADD `filename` varchar(255)
+Mysql2::Error: Table 'myapplicationcenter_development.iosapps' doesn't exist: ALTER TABLE `iosapps` ADD `filename` varchar(255)
+Connecting to database specified by database.yml
+  [1m[36m (11.9ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateIosApps (20120928031326)
+Migrating to CreateAndroidApps (20120928031411)
+Migrating to CreateAppCapacities (20120928031446)
+Migrating to DeviseCreateUsers (20120928090825)
+Migrating to AddUsernameToUsers (20120929023203)
+Migrating to AddFilenameToIosApps (20120929094103)
+  [1m[35m (650.4ms)[0m  ALTER TABLE `ios_apps` ADD `filename` varchar(255)
+  [1m[36m (59.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120929094103')[0m
+  [1m[35m (0.7ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (29.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 202ms (Views: 198.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /ios_app.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /app_capacity.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /android_app.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /android_app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /app_capacity.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /ios_app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:05 +0800
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/ios_app/" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Processing by IosAppController#index as HTML
+  [1m[35mIosApp Load (0.2ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` 
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1
+  Rendered ios_app/index.html.erb within layouts/application (26.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 81ms (Views: 39.6ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /android_app.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /ios_app.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /app_capacity.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:11 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ios_app/new" for 127.0.0.1 at 2012-09-29 17:45:13 +0800
+Processing by IosAppController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` [0m
+  Rendered ios_app/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 34ms (Views: 21.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:13 +0800
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:13 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:13 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:13 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:13 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:45:13 +0800
+Served asset /ios_app.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:14 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:14 +0800
+Served asset /android_app.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:14 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:14 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:14 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:45:14 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/ios_app/create" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Processing by IosAppController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"Temple Run", "description"=>"Temple Run", "capacity"=>"5", "filename"=>#<ActionDispatch::Http::UploadedFile:0x007ff744b199f8 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"ios_app[filename]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3163-192eebt>>}, "commit"=>"Create"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (16.3ms)[0m  INSERT INTO `ios_apps` (`capacity`, `created_at`, `description`, `filename`, `name`, `updated_at`) VALUES (5, '2012-09-29 09:46:25', 'Temple Run', '2012_09_29_17_46_25_221.png', 'Temple Run', '2012-09-29 09:46:25')
+  [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/ios_app
+Completed 302 Found in 71ms (ActiveRecord: 18.1ms)
+
+
+Started GET "/ios_app" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Processing by IosAppController#index as HTML
+  [1m[35mIosApp Load (0.3ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` 
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1
+  [1m[36mAppCapacity Load (0.3ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 5 LIMIT 1[0m
+  Rendered ios_app/index.html.erb within layouts/application (8.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /app_capacity.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:46:25 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ios_app/new" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Processing by IosAppController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` 
+  Rendered ios_app/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 23ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /android_app.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /app_capacity.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:47:35 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ios_app/show/4" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Processing by IosAppController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mIosApp Load (0.3ms)[0m  [1mSELECT `ios_apps`.* FROM `ios_apps` WHERE `ios_apps`.`id` = 4 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.2ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 5 LIMIT 1
+  Rendered ios_app/show.html.erb within layouts/application (52.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 99ms (Views: 96.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:51:34 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/ios_app/show/4" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Processing by IosAppController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mIosApp Load (0.1ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` WHERE `ios_apps`.`id` = 4 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 5 LIMIT 1[0m
+  Rendered ios_app/show.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /app_capacity.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:52:07 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ios_app/edit/4" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Processing by IosAppController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mIosApp Load (0.1ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` WHERE `ios_apps`.`id` = 4 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` [0m
+  Rendered ios_app/edit.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 27ms (Views: 21.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /app_capacity.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /app_capacity.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /application.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:54:20 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/ios_app/show/4" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Processing by IosAppController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mIosApp Load (0.2ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` WHERE `ios_apps`.`id` = 4 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 5 LIMIT 1[0m
+  Rendered ios_app/show.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /android_app.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 17:55:49 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (23.7ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateIosApps (20120928031326)
+Migrating to CreateAndroidApps (20120928031411)
+Migrating to CreateAppCapacities (20120928031446)
+Migrating to DeviseCreateUsers (20120928090825)
+Migrating to AddUsernameToUsers (20120929023203)
+Migrating to AddFilenameToIosApps (20120929094103)
+Migrating to AddFilenameToAndroidApps (20120929095630)
+  [1m[35m (372.8ms)[0m  ALTER TABLE `android_apps` ADD `filename` varchar(255)
+  [1m[36m (19.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120929095630')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/android_app/" for 127.0.0.1 at 2012-09-29 18:02:28 +0800
+Processing by AndroidAppController#index as HTML
+  [1m[36mAndroidApp Load (0.2ms)[0m  [1mSELECT `android_apps`.* FROM `android_apps` [0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1
+  Rendered android_app/index.html.erb within layouts/application (20.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 114ms (Views: 92.9ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /android_app.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:29 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/android_app/show/3" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Processing by AndroidAppController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mAndroidApp Load (0.3ms)[0m  SELECT `android_apps`.* FROM `android_apps` WHERE `android_apps`.`id` = 3 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1[0m
+  Rendered android_app/show.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /android_app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:31 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/android_app/edit/3" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Processing by AndroidAppController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mAndroidApp Load (0.1ms)[0m  SELECT `android_apps`.* FROM `android_apps` WHERE `android_apps`.`id` = 3 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` [0m
+  Rendered android_app/edit.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 69ms (Views: 52.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:02:41 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/android_app/update/3" for 127.0.0.1 at 2012-09-29 18:02:46 +0800
+Processing by AndroidAppController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "android_app"=>{"name"=>"极品飞车15", "description"=>"极品飞车15   android版 漂移的感觉很不错哟", "capacity"=>"19", "filename"=>#<ActionDispatch::Http::UploadedFile:0x007ff744d345d0 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"android_app[filename]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3163-b09tsm>>}, "commit"=>"Update", "id"=>"3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mAndroidApp Load (0.1ms)[0m  [1mSELECT `android_apps`.* FROM `android_apps` WHERE `android_apps`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 22ms
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/android_app_controller.rb:36:in `update'
+
+
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/android_app/new" for 127.0.0.1 at 2012-09-29 18:03:32 +0800
+Processing by AndroidAppController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` [0m
+  Rendered android_app/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 24ms (Views: 19.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:32 +0800
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:33 +0800
+Served asset /android_app.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:33 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:33 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:33 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:33 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:33 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:33 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:33 +0800
+Served asset /app_capacity.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:33 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:33 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:33 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/android_app/create" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Processing by AndroidAppController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "android_app"=>{"name"=>"Temp Run", "description"=>"Temp Run", "capacity"=>"5", "filename"=>#<ActionDispatch::Http::UploadedFile:0x007ff744d10ae0 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"android_app[filename]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3163-hwtg46>>}, "commit"=>"Create"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.4ms)[0m  INSERT INTO `android_apps` (`capacity`, `created_at`, `description`, `filename`, `name`, `updated_at`) VALUES (5, '2012-09-29 10:03:55', 'Temp Run', '2012_09_29_18_03_55_221.png', 'Temp Run', '2012-09-29 10:03:55')
+  [1m[36m (28.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/android_app
+Completed 302 Found in 63ms (ActiveRecord: 55.8ms)
+
+
+Started GET "/android_app" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Processing by AndroidAppController#index as HTML
+  [1m[35mAndroidApp Load (0.3ms)[0m  SELECT `android_apps`.* FROM `android_apps` 
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 5 LIMIT 1
+  Rendered android_app/index.html.erb within layouts/application (5.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /android_app.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:55 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/android_app/edit/4" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Processing by AndroidAppController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mAndroidApp Load (0.3ms)[0m  [1mSELECT `android_apps`.* FROM `android_apps` WHERE `android_apps`.`id` = 4 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` 
+  Rendered android_app/edit.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 47ms (Views: 43.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /android_app.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /android_app.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /app_capacity.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:03:57 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/android_app/update/4" for 127.0.0.1 at 2012-09-29 18:04:08 +0800
+Processing by AndroidAppController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "android_app"=>{"name"=>"Temp Run", "description"=>"Temp Run", "capacity"=>"5", "filename"=>#<ActionDispatch::Http::UploadedFile:0x007ff744d3f070 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"android_app[filename]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3163-33gsk>>}, "commit"=>"Update", "id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mAndroidApp Load (0.3ms)[0m  SELECT `android_apps`.* FROM `android_apps` WHERE `android_apps`.`id` = 4 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 8ms
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/android_app_controller.rb:36:in `update'
+
+
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.2ms)
+
+
+Started GET "/ios_app/" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Processing by IosAppController#index as HTML
+  [1m[36mIosApp Load (0.1ms)[0m  [1mSELECT `ios_apps`.* FROM `ios_apps` [0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1
+  [1m[36mAppCapacity Load (0.2ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.2ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 5 LIMIT 1
+  Rendered ios_app/index.html.erb within layouts/application (9.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 104ms (Views: 23.5ms | ActiveRecord: 67.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:17 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ios_app/edit/4" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Processing by IosAppController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mIosApp Load (0.1ms)[0m  [1mSELECT `ios_apps`.* FROM `ios_apps` WHERE `ios_apps`.`id` = 4 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` 
+  Rendered ios_app/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 25ms (Views: 19.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /app_capacity.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /ios_app.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:20 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ios_app/edit/3" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Processing by IosAppController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mIosApp Load (0.4ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` WHERE `ios_apps`.`id` = 3 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` [0m
+  Rendered ios_app/edit.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 27ms (Views: 22.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:04:25 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started PUT "/ios_app/update/3" for 127.0.0.1 at 2012-09-29 18:04:30 +0800
+Processing by IosAppController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"QQ斗地主", "description"=>"QQ斗地主", "capacity"=>"17", "filename"=>#<ActionDispatch::Http::UploadedFile:0x007ff744d42b08 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"ios_app[filename]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3163-1l49pn8>>}, "commit"=>"Update", "id"=>"3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mIosApp Load (0.2ms)[0m  [1mSELECT `ios_apps`.* FROM `ios_apps` WHERE `ios_apps`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/ios_app_controller.rb:36:in `update'
+
+
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/ios_app" for 127.0.0.1 at 2012-09-29 18:07:34 +0800
+Processing by IosAppController#index as HTML
+  [1m[35mIosApp Load (0.1ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` 
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1
+  [1m[36mAppCapacity Load (0.2ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 5 LIMIT 1[0m
+  Rendered ios_app/index.html.erb within layouts/application (23.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 129ms (Views: 65.3ms | ActiveRecord: 51.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /ios_app.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:35 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ios_app/edit/3" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Processing by IosAppController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mIosApp Load (0.1ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` WHERE `ios_apps`.`id` = 3 LIMIT 1
+  [1m[36mAppCapacity Load (0.2ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` [0m
+  Rendered ios_app/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 64ms (Views: 50.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /android_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:07:37 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started PUT "/ios_app/update/3" for 127.0.0.1 at 2012-09-29 18:07:42 +0800
+Processing by IosAppController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"QQ斗地主", "description"=>"QQ斗地主", "capacity"=>"17", "filename"=>#<ActionDispatch::Http::UploadedFile:0x007ff744d573a0 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"ios_app[filename]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3163-1rqwbor>>}, "commit"=>"Update", "id"=>"3"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mIosApp Load (0.2ms)[0m  [1mSELECT `ios_apps`.* FROM `ios_apps` WHERE `ios_apps`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/ios_app_controller.rb:39:in `update'
+
+
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started PUT "/ios_app/update/3" for 127.0.0.1 at 2012-09-29 18:13:11 +0800
+Processing by IosAppController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"QQ斗地主", "description"=>"QQ斗地主", "capacity"=>"17", "filename"=>#<ActionDispatch::Http::UploadedFile:0x007ff744d3f660 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"ios_app[filename]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3163-1em6pjg>>}, "commit"=>"Update", "id"=>"3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mIosApp Load (0.1ms)[0m  [1mSELECT `ios_apps`.* FROM `ios_apps` WHERE `ios_apps`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 148ms
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/ios_app_controller.rb:38:in `update'
+
+
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/ios_app" for 127.0.0.1 at 2012-09-29 18:22:50 +0800
+Processing by IosAppController#index as HTML
+  [1m[35mIosApp Load (0.2ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` 
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 19 LIMIT 1[0m
+  [1m[35mAppCapacity Load (0.1ms)[0m  SELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 17 LIMIT 1
+  [1m[36mAppCapacity Load (0.2ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` WHERE `app_capacities`.`id` = 5 LIMIT 1[0m
+  Rendered ios_app/index.html.erb within layouts/application (24.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 141ms (Views: 97.1ms | ActiveRecord: 29.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /android_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /app_capacity.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /android_app.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:51 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/ios_app/edit/3" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Processing by IosAppController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mIosApp Load (0.1ms)[0m  SELECT `ios_apps`.* FROM `ios_apps` WHERE `ios_apps`.`id` = 3 LIMIT 1
+  [1m[36mAppCapacity Load (0.1ms)[0m  [1mSELECT `app_capacities`.* FROM `app_capacities` [0m
+  Rendered ios_app/edit.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 52ms (Views: 18.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/android_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /android_app.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/app_capacity.css?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /app_capacity.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.css?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /ios_app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /android_app.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/app_capacity.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /app_capacity.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ios_app.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /ios_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-29 18:22:53 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/ios_app/update/3" for 127.0.0.1 at 2012-09-29 18:22:58 +0800
+Processing by IosAppController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBjdQudbfHxxz4WV9sCfdP1xrCPMn8r+L9uhLmVIth0=", "ios_app"=>{"name"=>"QQ斗地主", "description"=>"QQ斗地主", "capacity"=>"17", "filename"=>#<ActionDispatch::Http::UploadedFile:0x007ff744bbfce0 @original_filename="221.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"ios_app[filename]\"; filename=\"221.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/h2/z1bcgd5d51dbhjzm9rjng0r40000gn/T/RackMultipart20120929-3163-9vq52a>>}, "commit"=>"Update", "id"=>"3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 500 Internal Server Error in 7ms
+
+NameError (undefined local variable or method `name' for #<IosAppController:0x007ff744b2b4f0>):
+  app/controllers/ios_app_controller.rb:36:in `update'
+
+
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/echowang/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)

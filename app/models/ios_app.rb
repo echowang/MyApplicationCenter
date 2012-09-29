@@ -1,3 +1,3 @@
 class IosApp < ActiveRecord::Base
-  attr_accessible :capacity, :description, :name
+  attr_accessible :capacity, :description, :name, :filename
 end

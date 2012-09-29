@@ -11,14 +11,12 @@ class IosAppController < ApplicationController
 	end
 	def create
 		unless request.get?   
-       		if filename=upload_file(params[:file]['file'])   
-         		  
-       		end   
+       		filename=upload_file(params[:ios_app]['filename'])   
+       		@iosapp = IosApp.new(params[:ios_app])
+       		@iosapp.filename = filename
+  			@iosapp.save 
      	end
 
-		# @iosapp = IosApp.new(params[:ios_app])
-  # 		@iosapp.save
-  
   		redirect_to :action => :index
 	end
 
@@ -33,8 +31,12 @@ class IosAppController < ApplicationController
 	end
 
 	def update
-		@iosapp = IosApp.find(params[:id])
-  		@iosapp.update_attributes(params[:ios_app])
+		unless request.get?
+			filename=upload_file(params[:ios_app]['filename'])
+			@iosapp = IosApp.find(params[:id])
+			@iosapp.filename = filename
+  			@iosapp.update_attributes(params[:ios_app])
+  		end
   
   		redirect_to :action => :show, :id => @iosapp
 	end

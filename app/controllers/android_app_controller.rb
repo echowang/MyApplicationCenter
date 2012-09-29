@@ -10,9 +10,14 @@ class AndroidAppController < ApplicationController
 		@capacities = AppCapacity.find(:all).map{ |capacity| [capacity.name, capacity.id] } 
 	end
 	def create
-		@androidapp = AndroidApp.new(params[:android_app])
-  		@androidapp.save
-  
+		unless request.get?
+			filename=upload_file(params[:android_app]['filename'])
+
+			@androidapp = AndroidApp.new(params[:android_app])
+			@androidapp.filename = filename
+  			@androidapp.save
+  		end
+
   		redirect_to :action => :index
 	end
 

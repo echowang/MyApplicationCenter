@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120929023203) do
+ActiveRecord::Schema.define(:version => 20120929095630) do
 
   create_table "android_apps", :force => true do |t|
     t.string   "name"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20120929023203) do
     t.integer  "capacity"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.string   "filename"
   end
 
   create_table "app_capacities", :force => true do |t|
@@ -34,6 +35,7 @@ ActiveRecord::Schema.define(:version => 20120929023203) do
     t.integer  "capacity"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.string   "filename"
   end
 
   create_table "users", :force => true do |t|

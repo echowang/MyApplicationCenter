@@ -13,6 +13,10 @@
 			<td><%= f.select :capacity, @capacities %></td>
 		</tr>
 		<tr>
+			<td><%= f.label :filename, "ipa文件" %></td>
+			<td><%= f.file_field :filename %></td>
+		</tr>
+		<tr>
 			<td colspan="2" align="center"><%= f.submit "Update" %></td>
 		</tr>
 	</table>   
