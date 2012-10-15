@@ -34,8 +34,13 @@ class IosAppController < ApplicationController
 		unless request.get?
 			filename=upload_file(params[:ios_app]['filename'])
 			@iosapp = IosApp.find(params[:id])
-			@iosapp.filename = filename
-  			@iosapp.update_attributes(params[:ios_app])
+			# @iosapp.filename = filename
+			hash = Hash.new
+			hash['name'] = params[:ios_app]['name']
+			hash['description'] = params[:ios_app]['description']
+			hash['capacity'] = params[:ios_app]['capacity']
+			hash['filename'] = filename
+  			@iosapp.update_attributes(hash)
   		end
   
   		redirect_to :action => :show, :id => @iosapp

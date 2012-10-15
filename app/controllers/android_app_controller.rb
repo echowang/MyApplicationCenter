@@ -32,8 +32,16 @@ class AndroidAppController < ApplicationController
 	end
 
 	def update
+		filename=upload_file(params[:android_app]['filename'])
 		@androidapp = AndroidApp.find(params[:id])
-  		@androidapp.update_attributes(params[:android_app])
+		
+		hash = Hash.new
+		hash['name'] = params[:android_app]['name']
+		hash['description'] = params[:android_app]['description']
+		hash['capacity'] = params[:android_app]['capacity']
+		hash['filename'] = filename
+  		
+  		@androidapp.update_attributes(hash)
   
   		redirect_to :action => :show, :id => @androidapp
 	end
